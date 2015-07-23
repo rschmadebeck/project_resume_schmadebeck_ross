@@ -8,7 +8,8 @@ html {
 body {
     background-color: lightblue;
     width: 100%;
-    margin: 20px;
+    padding: 20px;
+    margin: auto;
 }
 
 .hidden {
@@ -20,4 +21,54 @@ body {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+p, ul, li {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+    min-height: 50px;
+    padding: 5px;
+    margin: auto;
+    z-index: 90;
+}
+
+nav ul li {
+    font-size: 1.3em;
+    font-weight: 700;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.pageheading {
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
