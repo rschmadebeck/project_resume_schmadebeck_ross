@@ -104,6 +104,18 @@ h1, h2, h3, p {
     padding-right: 10px;
 }
 
+.section_header {
+    color: darkblue;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
 a {
     color: darkblue;
     text-decoration: none;
