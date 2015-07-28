@@ -8,7 +8,6 @@ html {
 body {
     background-color: lightblue;
     width: 100%;
-    padding: 20px;
     margin: auto;
 }
 
@@ -23,27 +22,43 @@ body {
     width: 1px;
 }
 
-p, ul, li {
+p, ul, li, figcaption {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.headshot {
+    width: 25%;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 3px 3px 3px 2px #2B2B2B;
+    box-shadow: 3px 3px 3px 2px #2B2B2B;
+}
+
+#headshot {
+    text-align: center;
+    margin: auto;
+}
+
+img {
+    width: 40%;
+    min-width: 100px;
+}
+
 nav {
-    background-color: blue;
+    background-color: #FFFFFF;
     width: 100%;
     text-align: center;
     min-height: 50px;
-    padding: 5px;
-    margin: auto;
-    z-index: 90;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 nav ul li {
     font-size: 1.3em;
     font-weight: 700;
     display: inline;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 10px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sticky {
@@ -56,12 +71,16 @@ nav ul li {
 }
 
 h1 {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .pageheading {
-    font-size: 48px;
+    font-size: 40px;
     letter-spacing: 2px;
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 a {
@@ -71,4 +90,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    .pageheading {
+        width: 40%;
+        text-align: left;
+    }
+
+    .headshot {
+        width: 20%;
+    }
 }
