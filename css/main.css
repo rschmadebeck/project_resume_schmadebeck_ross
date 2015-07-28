@@ -11,6 +11,10 @@ body {
     margin: auto;
 }
 
+header {
+    background-color: #FFFFFF;
+}
+
 .hidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -23,24 +27,44 @@ body {
 }
 
 p, ul, li, figcaption {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pageheading {
+    font-size: 44px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .headshot {
-    width: 25%;
+    width: 40%;
+    min-width: 100px;
     margin-bottom: 10px;
     -webkit-box-shadow: 3px 3px 3px 2px #2B2B2B;
     box-shadow: 3px 3px 3px 2px #2B2B2B;
 }
 
-#headshot {
+#headshot_image {
+    width: 100%;
     text-align: center;
-    margin: auto;
+    margin-bottom: 20px;
 }
 
-img {
-    width: 40%;
-    min-width: 100px;
+#contact_info {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
 }
 
 nav {
@@ -74,15 +98,6 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
-.pageheading {
-    font-size: 40px;
-    letter-spacing: 2px;
-    text-align: center;
-    padding-left: 10px;
-    margin-top: 0px;
-    margin-bottom: 2px;
-}
-
 a {
     color: darkblue;
     text-decoration: none;
@@ -93,12 +108,29 @@ a:hover {
 }
 
 @media (min-width: 500px) {
-    .pageheading {
+    #container {
+        width: 80%;
+        margin: auto;
+    }
+
+    #headshot_image, #contact_info {
         width: 40%;
+        float: left;
+    }
+
+    #contact_info {
+        font-size: 24px;
+    }
+
+    nav {
+        clear: both;
+    }
+
+    .pageheading {
         text-align: left;
     }
 
-    .headshot {
+/*    .headshot {
         width: 20%;
-    }
+    }*/
 }
