@@ -30,7 +30,6 @@ p, ul, li, figcaption {
 
 .pageheading {
     font-size: 44px;
-    letter-spacing: 2px;
     text-align: center;
     padding-left: 10px;
     margin-top: 0px;
@@ -38,7 +37,7 @@ p, ul, li, figcaption {
 }
 
 .headshot {
-    width: 40%;
+    width: 25%;
     min-width: 100px;
     margin-bottom: 10px;
     -webkit-box-shadow: 3px 3px 3px 2px #2B2B2B;
@@ -49,6 +48,10 @@ p, ul, li, figcaption {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
+}
+
+#contact_info {
+    line-height: 8px;
 }
 
 #contact_info {
@@ -130,7 +133,7 @@ a:hover {
     font-style: italic;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     #container {
         width: 80%;
         margin: auto;
@@ -142,13 +145,18 @@ a:hover {
         text-align: left;
     }
 
-    #headshot_image, #contact_info {
+    .headshot {
         width: 40%;
+    }
+
+    #headshot_image, #contact_info {
+        width: 45%;
         float: left;
     }
 
     #contact_info {
-        font-size: 24px;
+        font-size: 16px;
+        line-height: 12px;
     }
 
     nav {
@@ -168,7 +176,10 @@ a:hover {
         padding: 10px;
     }
 
-/*    .headshot {
-        width: 20%;
-    }*/
+}
+
+@media (min-width: 960px) {
+    #contact_info {
+        font-size: 24px;
+    }
 }
