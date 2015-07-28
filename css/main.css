@@ -133,6 +133,11 @@ a:hover {
     font-style: italic;
 }
 
+#skillscloud {
+    width: 100%;
+    min-width: 300px;
+}
+
 @media (min-width: 600px) {
     #container {
         width: 80%;

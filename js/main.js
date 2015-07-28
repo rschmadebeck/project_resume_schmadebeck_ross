@@ -17,3 +17,19 @@ $(window).scroll(function() {
     stickyNav();
 });
 });
+
+WordCloud(document.getElementById('skillscloud'),
+    { list: [
+        ['Marketing', 24],
+        ['Sitecore', 16],
+        ['Digital Media', 24],
+        ['eCommerce', 14],
+        ['Social Media', 12],
+        ['Creative Suite', 14],
+        ['Strategy', 18],
+        ['Events', 10],
+        ['CMS', 20],
+        ['Budgets', 16],
+        ['Product Development', 16]
+    ] }
+);

@@ -176,7 +176,7 @@ if (!window.clearImmediate) {
     /* Default values to be overwritten by options object */
     var settings = {
       list: [],
-      fontFamily: '"Trebuchet MS", "Heiti TC", "微軟正黑體", ' +
+      fontFamily: '"Roboto", "Heiti TC", "微軟正黑體", ' +
                   '"Arial Unicode MS", "Droid Fallback Sans", sans-serif',
       fontWeight: 'normal',
       color: 'random-dark',
