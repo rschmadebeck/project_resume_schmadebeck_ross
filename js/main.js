@@ -1,3 +1,5 @@
+//Code for sticky nav
+
 $(document).ready(function() {
     var stickyNavTop = $('.nav').offset().top;
 
@@ -17,6 +19,8 @@ $(window).scroll(function() {
     stickyNav();
 });
 });
+
+//Code for WordCloud List
 
 WordCloud(document.getElementById('skillscloud'),
     { list: [
