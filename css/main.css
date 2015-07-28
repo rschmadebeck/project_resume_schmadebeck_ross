@@ -7,11 +7,9 @@ html {
 
 body {
     background-color: lightblue;
-    width: 100%;
-    margin: auto;
 }
 
-header {
+#container {
     background-color: #FFFFFF;
 }
 
@@ -62,18 +60,21 @@ p, ul, li, figcaption {
 }
 
 figcaption {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-style: italic;
 }
 
 nav {
-    background-color: #FFFFFF;
+    background-color: lightblue;
     width: 100%;
     text-align: center;
     min-height: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+nav ul {
+    margin-left: -20px;
 }
 
 nav ul li {
@@ -98,6 +99,11 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
+h1, h2, h3, p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 a {
     color: darkblue;
     text-decoration: none;
@@ -107,10 +113,21 @@ a:hover {
     text-decoration: underline;
 }
 
+.dates {
+    font-weight: 700;
+    font-style: italic;
+}
+
 @media (min-width: 500px) {
     #container {
         width: 80%;
         margin: auto;
+        -webkit-box-shadow: 3px 3px 3px 2px #2B2B2B;
+        box-shadow: 3px 3px 3px 2px #2B2B2B;
+    }
+
+    .pageheading {
+        text-align: left;
     }
 
     #headshot_image, #contact_info {
@@ -123,11 +140,20 @@ a:hover {
     }
 
     nav {
+        background-color: lightblue;
         clear: both;
+        margin: 0;
     }
 
-    .pageheading {
-        text-align: left;
+    .sticky {
+        width: 80%;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+
+    section {
+        padding: 10px;
     }
 
 /*    .headshot {
