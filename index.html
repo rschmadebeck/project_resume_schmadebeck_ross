@@ -7,11 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="css/flexnav.css" rel="stylesheet" type="text/css" / >
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic|Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body class="one-page">
     <div id="container">
         <header>
+            <nav class="nav">
+                <div class="menu-button">Menu</div>
+                <h1 class="hidden">Navigation</h1>
+                <ul class="flexnav" data-breakpoint="800">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                </ul>
+            </nav>
             <h1 class="pageheading">Ross Schmadebeck</h1>
             <div id="headshot_image">
                 <fig>
@@ -24,16 +36,6 @@
                 <p><a href="tel:555-555-5555">555-555-5555</a></p>
                 <p><a href="http://ross.schmadebeck.com" target="_blank">http://ross.schmadebeck.com</a></p>
             </div>
-            <nav class="nav">
-                <h1 class="hidden">Navigation</h1>
-                <ul>
-                    <li><a href="#top">Home</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#interests">Interests</a></li>
-                </ul>
-            </nav>
         </header>
         <section id="experience">
             <h1 class="section_header">Experience</h1>
@@ -97,6 +99,7 @@
             <p>Copyright (c) Ross Schmadebeck | ross.schmadebeck@gmail.com | 555-555-5555</p>
         </footer>
         <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/jquery.flexnav.min.js"></script>
         <script src="js/wordcloud2.js"></script>
         <script src="js/main.js"></script>
     </div>
