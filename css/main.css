@@ -103,14 +103,18 @@ h1, h2, h3, p {
 
 .section_header {
     color: darkblue;
+    font-size: 36px;
+    margin-bottom: -15px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: -10px;
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
+    margin-bottom: -10px;
 }
 
 a {
@@ -128,12 +132,15 @@ a:hover {
 }
 
 .dates {
-    font-weight: 700;
+    color: #102ba1;
+    font-weight: 400;
     font-style: italic;
+    margin-bottom: -15px;
 }
 
 .skills {
     text-align: center;
+    margin-top: 10px;
 }
 
 #skillscloud {
