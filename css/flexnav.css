@@ -44,7 +44,7 @@
     padding: .96em;
     z-index: 2;
     overflow: hidden;
-    background: lightblue;
+    background: #102ba1;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
@@ -104,8 +104,8 @@
     position: relative;
     display: block;
     padding: 1em;
-    background: lightblue;
-    color: darkblue;
+    background: #102ba1;
+    color: #FFFFFF;
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -137,109 +137,165 @@
 }
 
 @media all and (min-width: 800px) {
-    body.one-page {
-  }
+        body.one-page {
+    }
 
-.flexnav {
-  overflow: visible; }
-  .flexnav.opacity {
-    opacity: 1; }
-  .flexnav.one-page {
-    top: 0;
-    right: auto;
-    max-width: 1080px; }
-  .flexnav li {
-    position: relative;
-    list-style: none;
-    float: left;
-    display: block;
-    background-color: #a6a6a2;
-    overflow: visible;
-    width: 20%; }
-  .flexnav li a {
-    border-left: 1px solid #acaca1;
-    border-bottom: none; }
-  .flexnav li > ul {
-    position: absolute;
-    top: auto;
-    left: 0; }
+    .flexnav {
+        overflow: visible;
+    }
+
+    .flexnav.opacity {
+        opacity: 1;
+    }
+
+    .flexnav.one-page {
+        top: 0;
+        right: auto;
+        max-width: 1080px;
+    }
+    .flexnav li {
+        position: relative;
+        list-style: none;
+        float: left;
+        display: block;
+        background-color: #a6a6a2;
+        overflow: visible;
+        width: 20%;
+    }
+
+    .flexnav li a {
+        border-left: 1px solid #acaca1;
+        border-bottom: none;
+    }
+
+    .flexnav li > ul {
+        position: absolute;
+        top: auto;
+        left: 0;
+    }
+
     .flexnav li > ul li {
-      width: 100%; }
-  .flexnav li ul li > ul {
-    margin-left: 100%;
-    top: 0; }
-  .flexnav li ul li a {
-    border-bottom: none; }
-  .flexnav li ul.open {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    z-index: 1; }
-    .flexnav li ul.open li {
-      overflow: visible;
-      max-height: 100px; }
-    .flexnav li ul.open ul.open {
-      margin-left: 100%;
-      top: 0; }
+        width: 100%;
+    }
 
-.menu-button {
-  display: none; } }
-.oldie body.one-page {
-padding-top: 70px; }
-.oldie .flexnav {
-overflow: visible; }
-.oldie .flexnav.one-page {
-  top: 0;
-  right: auto;
-  max-width: 1080px; }
-.oldie .flexnav li {
-  position: relative;
-  list-style: none;
-  float: left;
-  display: block;
-  background-color: #a6a6a2;
-  width: 20%;
-  min-height: 50px;
-  overflow: visible; }
-.oldie .flexnav li:hover > ul {
-  display: block;
-  width: 100%;
-  overflow: visible; }
-  .oldie .flexnav li:hover > ul li {
-    width: 100%;
-    float: none; }
-.oldie .flexnav li a {
-  border-left: 1px solid #acaca1;
-  border-bottom: none;
-  overflow: visible; }
-.oldie .flexnav li > ul {
-  background: #acaca1;
-  position: absolute;
-  top: auto;
-  left: 0;
-  display: none;
-  z-index: 1;
-  overflow: visible; }
-.oldie .flexnav li ul li ul {
-  top: 0; }
-.oldie .flexnav li ul li a {
-  border-bottom: none; }
-.oldie .flexnav li ul.open {
-  display: block;
-  width: 100%;
-  overflow: visible; }
-  .oldie .flexnav li ul.open li {
-    width: 100%; }
-  .oldie .flexnav li ul.open ul.open {
-    margin-left: 100%;
-    top: 0;
-    display: block;
-    width: 100%;
-    overflow: visible; }
-.oldie .flexnav ul li:hover ul {
-  margin-left: 100%;
-  top: 0; }
-.oldie .menu-button {
-display: none; }
-.oldie.ie7 .flexnav li {
-width: 19.9%; }
+    .flexnav li ul li > ul {
+        margin-left: 100%;
+        top: 0;
+    }
+
+    .flexnav li ul li a {
+        border-bottom: none;
+    }
+
+    .flexnav li ul.open {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .flexnav li ul.open li {
+        overflow: visible;
+        max-height: 100px;
+    }
+
+    .flexnav li ul.open ul.open {
+        margin-left: 100%;
+        top: 0;
+    }
+
+    .menu-button {
+        display: none;
+    }
+    }
+
+    .oldie body.one-page {
+        padding-top: 70px;
+    }
+
+    .oldie .flexnav {
+        overflow: visible;
+    }
+
+    .oldie .flexnav.one-page {
+        top: 0;
+        right: auto;
+        max-width: 1080px;
+    }
+
+    .oldie .flexnav li {
+        position: relative;
+        list-style: none;
+        float: left;
+        display: block;
+        background-color: #a6a6a2;
+        width: 20%;
+        min-height: 50px;
+        overflow: visible;
+    }
+
+    .oldie .flexnav li:hover > ul {
+        display: block;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .oldie .flexnav li:hover > ul li {
+        width: 100%;
+        float: none;
+    }
+
+    .oldie .flexnav li a {
+        border-left: 1px solid #acaca1;
+        border-bottom: none;
+        overflow: visible;
+    }
+
+    .oldie .flexnav li > ul {
+        background: #acaca1;
+        position: absolute;
+        top: auto;
+        left: 0;
+        display: none;
+        z-index: 1;
+        overflow: visible;
+    }
+
+    .oldie .flexnav li ul li ul {
+        top: 0;
+    }
+
+    .oldie .flexnav li ul li a {
+        border-bottom: none;
+    }
+
+    .oldie .flexnav li ul.open {
+        display: block;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .oldie .flexnav li ul.open li {
+        width: 100%;
+    }
+
+    .oldie .flexnav li ul.open ul.open {
+        margin-left: 100%;
+        top: 0;
+        display: block;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .oldie .flexnav ul li:hover ul {
+        margin-left: 100%;
+        top: 0;
+    }
+
+    .oldie .menu-button {
+        display: none;
+    }
+
+    .oldie.ie7 .flexnav li {
+        width: 19.9%;
+    }
