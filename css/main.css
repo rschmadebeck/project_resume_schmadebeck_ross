@@ -10,7 +10,7 @@ body {
 }
 
 #container {
-    background-color: #FFFFFF;
+    background-image: url(../img/cubes.png);
 }
 
 .hidden {
@@ -29,9 +29,11 @@ p, ul, li, figcaption {
 }
 
 .pageheading {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 700;
     font-size: 44px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -88,8 +90,8 @@ section {
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    margin-top: 5px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 10px;
 }
 
 h1, h2, h3, p {
@@ -183,6 +185,7 @@ footer {
 
     section {
         padding: 10px;
+        clear: both;
     }
 
     #skillscloud {
