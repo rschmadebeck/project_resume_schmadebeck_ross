@@ -46,6 +46,8 @@ WordCloud(document.getElementById('skillscloud'),
         ['Events', 10],
         ['CMS', 20],
         ['Budgets', 16],
-        ['Product Development', 16]
+        ['Product Development', 16],
+        ['Analytics', 20],
+        ['Analysis', 14]
     ] }
 );

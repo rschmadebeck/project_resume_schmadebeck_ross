@@ -32,6 +32,7 @@ p, ul, li, figcaption {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 700;
     font-size: 44px;
+    color: darkblue;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -91,6 +92,7 @@ section {
 
 h1 {
     font-family: 'Alegreya Sans SC', sans-serif;
+    color: #102ba1;
     margin-top: 10px;
 }
 
@@ -135,9 +137,12 @@ a:hover {
 }
 
 #skillscloud {
+    background-color: #FFFFFF;
     width: 80%;
     min-width: 340px;
     margin: auto;
+    border: 1px solid #102ba1;
+    padding: 10px;
 }
 
 footer {
@@ -158,7 +163,7 @@ footer {
 
     .pageheading {
         text-align: left;
-        padding-left: 10px;
+        padding-left: 30px;
     }
 
     .headshot {
@@ -176,7 +181,7 @@ footer {
     }
 
     nav {
-        background-color: lightblue;
+        background-color: #102ba1;
         clear: both;
         margin: 0;
     }
